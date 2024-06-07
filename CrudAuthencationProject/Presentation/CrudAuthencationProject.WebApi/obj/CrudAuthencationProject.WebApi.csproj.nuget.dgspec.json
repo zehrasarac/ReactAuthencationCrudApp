@@ -1,0 +1,252 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\zehra\\projects\\repos\\AuthecantationProject\\CrudAuthencationProject\\Presentation\\CrudAuthencationProject.WebApi\\CrudAuthencationProject.WebApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\zehra\\projects\\repos\\AuthecantationProject\\CrudAuthencationProject\\Core\\CrudAuthencationProject.Domain\\CrudAuthencationProject.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zehra\\projects\\repos\\AuthecantationProject\\CrudAuthencationProject\\Core\\CrudAuthencationProject.Domain\\CrudAuthencationProject.Domain.csproj",
+        "projectName": "CrudAuthencationProject.Domain",
+        "projectPath": "C:\\Users\\zehra\\projects\\repos\\AuthecantationProject\\CrudAuthencationProject\\Core\\CrudAuthencationProject.Domain\\CrudAuthencationProject.Domain.csproj",
+        "packagesPath": "C:\\Users\\zehra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zehra\\projects\\repos\\AuthecantationProject\\CrudAuthencationProject\\Core\\CrudAuthencationProject.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\zehra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.1.39, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.104/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\zehra\\projects\\repos\\AuthecantationProject\\CrudAuthencationProject\\Infrastucture\\CrudAuthencationProject.Persistance\\CrudAuthencationProject.Persistance.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zehra\\projects\\repos\\AuthecantationProject\\CrudAuthencationProject\\Infrastucture\\CrudAuthencationProject.Persistance\\CrudAuthencationProject.Persistance.csproj",
+        "projectName": "CrudAuthencationProject.Persistance",
+        "projectPath": "C:\\Users\\zehra\\projects\\repos\\AuthecantationProject\\CrudAuthencationProject\\Infrastucture\\CrudAuthencationProject.Persistance\\CrudAuthencationProject.Persistance.csproj",
+        "packagesPath": "C:\\Users\\zehra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zehra\\projects\\repos\\AuthecantationProject\\CrudAuthencationProject\\Infrastucture\\CrudAuthencationProject.Persistance\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\zehra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\zehra\\projects\\repos\\AuthecantationProject\\CrudAuthencationProject\\Core\\CrudAuthencationProject.Domain\\CrudAuthencationProject.Domain.csproj": {
+                "projectPath": "C:\\Users\\zehra\\projects\\repos\\AuthecantationProject\\CrudAuthencationProject\\Core\\CrudAuthencationProject.Domain\\CrudAuthencationProject.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[7.5.2, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.5.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.104/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\zehra\\projects\\repos\\AuthecantationProject\\CrudAuthencationProject\\Presentation\\CrudAuthencationProject.WebApi\\CrudAuthencationProject.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zehra\\projects\\repos\\AuthecantationProject\\CrudAuthencationProject\\Presentation\\CrudAuthencationProject.WebApi\\CrudAuthencationProject.WebApi.csproj",
+        "projectName": "CrudAuthencationProject.WebApi",
+        "projectPath": "C:\\Users\\zehra\\projects\\repos\\AuthecantationProject\\CrudAuthencationProject\\Presentation\\CrudAuthencationProject.WebApi\\CrudAuthencationProject.WebApi.csproj",
+        "packagesPath": "C:\\Users\\zehra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zehra\\projects\\repos\\AuthecantationProject\\CrudAuthencationProject\\Presentation\\CrudAuthencationProject.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\zehra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\zehra\\projects\\repos\\AuthecantationProject\\CrudAuthencationProject\\Infrastucture\\CrudAuthencationProject.Persistance\\CrudAuthencationProject.Persistance.csproj": {
+                "projectPath": "C:\\Users\\zehra\\projects\\repos\\AuthecantationProject\\CrudAuthencationProject\\Infrastucture\\CrudAuthencationProject.Persistance\\CrudAuthencationProject.Persistance.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.104/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

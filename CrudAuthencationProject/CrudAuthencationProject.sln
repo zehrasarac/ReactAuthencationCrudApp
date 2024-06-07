@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{A76F511B-E89F-49D5-BDB9-57D5C5CA8008}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastucture", "Infrastucture", "{15A45AD4-2109-4B48-A7DD-311E65754D1C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{5729F166-E646-4268-9E10-F95A7506C3AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudAuthencationProject.Domain", "Core\CrudAuthencationProject.Domain\CrudAuthencationProject.Domain.csproj", "{43C8AA27-80F3-40E0-A4F5-F79BC00F3532}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudAuthencationProject.Persistance", "Infrastucture\CrudAuthencationProject.Persistance\CrudAuthencationProject.Persistance.csproj", "{07ADD1C0-8AD6-459A-BA5C-EB69AEFA5DF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudAuthencationProject.WebApi", "Presentation\CrudAuthencationProject.WebApi\CrudAuthencationProject.WebApi.csproj", "{C4753DAE-B6DC-4087-B7EF-1CAA7666A030}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43C8AA27-80F3-40E0-A4F5-F79BC00F3532}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43C8AA27-80F3-40E0-A4F5-F79BC00F3532}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43C8AA27-80F3-40E0-A4F5-F79BC00F3532}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43C8AA27-80F3-40E0-A4F5-F79BC00F3532}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07ADD1C0-8AD6-459A-BA5C-EB69AEFA5DF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07ADD1C0-8AD6-459A-BA5C-EB69AEFA5DF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07ADD1C0-8AD6-459A-BA5C-EB69AEFA5DF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07ADD1C0-8AD6-459A-BA5C-EB69AEFA5DF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4753DAE-B6DC-4087-B7EF-1CAA7666A030}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4753DAE-B6DC-4087-B7EF-1CAA7666A030}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4753DAE-B6DC-4087-B7EF-1CAA7666A030}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4753DAE-B6DC-4087-B7EF-1CAA7666A030}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{43C8AA27-80F3-40E0-A4F5-F79BC00F3532} = {A76F511B-E89F-49D5-BDB9-57D5C5CA8008}
+		{07ADD1C0-8AD6-459A-BA5C-EB69AEFA5DF4} = {15A45AD4-2109-4B48-A7DD-311E65754D1C}
+		{C4753DAE-B6DC-4087-B7EF-1CAA7666A030} = {5729F166-E646-4268-9E10-F95A7506C3AC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51530756-66DF-4A88-A28B-2DE876BF3E62}
+	EndGlobalSection
+EndGlobal
